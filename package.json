@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass styles/sass/main.scss styles/css/style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctalloc/portfolio.git"
+  },
+  "author": "ctalloc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctalloc/portfolio/issues"
+  },
+  "homepage": "https://github.com/ctalloc/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
