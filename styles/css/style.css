@@ -22,17 +22,22 @@
     align-items: center; }
     @media screen and (min-width: 768px) {
       .hero__main {
-        order: 0; } }
+        order: 0;
+        height: 70vh; } }
   .hero__side {
     height: 10vh;
     background-color: #333333; }
     @media screen and (min-width: 768px) {
       .hero__side {
-        height: 100vh; } }
+        height: 70vh; } }
   .hero__title {
+    font-size: 40px;
     color: #458cf9;
-    font-family: "Unica One", cursive; }
+    font-family: "Unica One", cursive;
+    margin: 0 0 20px 0; }
   .hero__txt {
+    text-align: end;
+    font-size: 14px;
     color: #F2F2F2;
     font-family: "Open Sans", sans-serif; }
 
@@ -57,3 +62,6 @@
         .navbar__item--proj {
           order: 0;
           font-size: 20px; } }
+    @media screen and (min-width: 768px) {
+      .navbar__item {
+        margin: 20px 20px; } }
