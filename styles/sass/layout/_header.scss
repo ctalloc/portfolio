@@ -1,0 +1,26 @@
+@import "../abstract/mixins";
+@import "../abstract/variables";
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  @include tablet {
+    flex-direction: row;
+  }
+  &__main {
+    order: 1;
+    @include tablet {
+        order: 0;
+      }
+  }
+}
+
+.navbar {
+  &__list {
+    display: flex;
+    flex-direction: row;
+    @include tablet {
+        flex-direction: column;
+    }
+  }
+}

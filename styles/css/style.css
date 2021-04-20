@@ -3,3 +3,22 @@
   padding: 0;
   text-decoration: 0;
   list-style-type: none; }
+
+.hero {
+  display: flex;
+  flex-direction: column; }
+  @media screen and (min-width: 768px) {
+    .hero {
+      flex-direction: row; } }
+  .hero__main {
+    order: 1; }
+    @media screen and (min-width: 768px) {
+      .hero__main {
+        order: 0; } }
+
+.navbar__list {
+  display: flex;
+  flex-direction: row; }
+  @media screen and (min-width: 768px) {
+    .navbar__list {
+      flex-direction: column; } }
