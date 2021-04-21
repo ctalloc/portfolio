@@ -1,0 +1,21 @@
+@import "../abstract/mixins";
+
+
+.body-bg {
+    background-color: $white;
+}
+
+.header-column {
+    margin: 0 15px;
+}
+
+.central-column {
+    margin: 0 15px;
+    @include tablet {
+        margin: 0 45px;
+    }
+    @include desktop {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
