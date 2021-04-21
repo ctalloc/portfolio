@@ -99,3 +99,15 @@
     }
   }
 }
+
+// fixed nav
+
+.fixednav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  &--icon {
+    width: 40px;
+    margin: 20px;
+  }
+}
