@@ -107,3 +107,41 @@
     @media screen and (min-width: 768px) {
       .navbar__item {
         margin: 20px 20px; } }
+
+.tools__container {
+  display: flex;
+  justify-content: space-between; }
+
+.tools__title {
+  text-align: center;
+  margin: 14px 0 20px 0;
+  font-family: "Unica One", cursive;
+  color: #7E7E7E; }
+
+.tools__container {
+  font-family: "Open Sans", sans-serif; }
+
+.tools__item {
+  line-height: 30px;
+  display: flex; }
+
+.tools__icon {
+  width: 40px; }
+
+.tools__txt {
+  display: inline-block;
+  margin: 5px 10px;
+  font-size: 12px;
+  line-height: 40px; }
+
+.tools__frontend {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px; }
+
+.tools__backend {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10px; }
